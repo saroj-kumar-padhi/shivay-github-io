@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donation form</title>
+    <link rel="stylesheet" href="donation.css">
+</head>
+<body>
+    <h1>
+        payment form
+    <hr>
+    </h1>
+    <h2>contact information</h2>
+    <main>
+        <p>
+            name: <input type="text" name="name" id="name">
+        </p>
+        <p>
+            <fieldset>
+                <legend>gender</legend>
+            male: <input type="radio" name="gender" id="gender">
+            female: <input type="radio" name="gender" id="gender">
+            </fieldset>
+        </p>
+        <p>
+            address:<br> <textarea name="address" id="address" cols="50" rows="5"></textarea>
+
+        </p>
+        <p>
+            email: <input type="email" name="email" id="email">
+        </p>
+        <p>
+            pincode: <input type="number" name="pincode" id="pincode">
+        </p>
+        <h2>
+            payment details
+        </h2>
+        <p>
+            card type:
+            <select name="card_type" id="card_type">
+                <option value="">--select a card type--</option>></option>
+                <option value="visa">visa</option>
+                <option value="rupeey">ruppey</option>
+                <option value="mastercard">master card</option>
+            </select>
+            
+        </p>
+        <p>
+            card number: <input type="number" name="card_number" id="card_number">
+
+        </p>
+        <p>
+            cvv number: <input type="password" name="password" id="password">
+
+        </p>
+        <p>
+            expiry date: <input type="date" name="expiry_date" id="expiry_date">
+        </p>
+        <p id="submit">
+            <input type="submit" value="pay now">
+        </p>
+        
+        
+    </main>
+    
+</body>
+</html>

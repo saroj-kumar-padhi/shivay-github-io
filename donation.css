@@ -1,0 +1,21 @@
+body{
+    background-color: #e0dbc5;
+}
+#name,#gender,#address,#email,#pincode,#card_type,#card_number,#cvv_number,#expiry_date
+{
+    text-align: left;
+}
+h1,h2{
+    text-align: center;
+}
+#address
+{
+    text-align: center;
+}
+#submit
+{
+    text-align: center;
+    background-color: crimson;
+
+
+}
